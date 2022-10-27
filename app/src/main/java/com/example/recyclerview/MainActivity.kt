@@ -13,7 +13,7 @@ class MainActivity : AppCompatActivity() {
         val stringNim: String = "NIM\t\t\t: "
         val stringHobi: String = "Hobi\t\t\t: "
         val memberList = listOf<Member>(
-            Member(R.drawable.instagram,
+            Member(R.drawable.foto_ana,
                 "$stringNama Ana Balqis Sholehah",
                 "$stringNim 205150200111063",
                 "$stringHobi Ini Hobi Ana"
