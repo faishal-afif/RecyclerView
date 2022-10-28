@@ -36,7 +36,6 @@ class MemberAdapter(private val context: Context, private val member: List<Membe
     override fun onBindViewHolder(holder: MemberViewFolder, position: Int) {
         holder.bindView(member[position], listener)
     }
-
     override fun getItemCount(): Int = member.size
 
 }
