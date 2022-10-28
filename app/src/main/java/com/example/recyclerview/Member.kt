@@ -4,7 +4,7 @@ import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize
 
 @Parcelize
-data class Member(
+data class Member (
     val imgMember: Int,
     val nameMember: String,
     val nimMember: String,
