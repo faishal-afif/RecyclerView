@@ -16,19 +16,19 @@ class MainActivity : AppCompatActivity() {
             Member(R.drawable.foto_ana,
                 "$stringNama Ana Balqis Sholehah",
                 "$stringNim 205150200111063",
-                "$stringHobi Ini Hobi Ana"
+                "$stringHobi Membaca"
             ),
             Member(R.drawable.foto_afif,
                 "$stringNama Faishal Afif",
                 "$stringNim 205150201111041",
-                "$stringHobi Ini hobi Afif"
+                "$stringHobi Berenang"
             ),
             Member(R.drawable.foto_ika,
                 "$stringNama Ika Febrianti",
                 "$stringNim 205150200111060",
-                "$stringHobi Ini hobi Ika"
+                "$stringHobi Mendengarkan Musik"
             )
-        // Nambah List secara manual
+            // Nambah List secara manual
         )
 
         val recyclerView = findViewById<RecyclerView>(R.id.rv_member)

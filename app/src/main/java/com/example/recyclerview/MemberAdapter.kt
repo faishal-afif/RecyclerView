@@ -24,18 +24,14 @@ class MemberAdapter(private val context: Context, private val member: List<Membe
             nimMember.text = member.nimMember
             hobbyMember.text = member.hobbyMember
         }
-
     }
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MemberViewFolder {
         return MemberViewFolder(
             LayoutInflater.from(context).inflate(R.layout.item_member, parent, false)
         )
     }
-
     override fun onBindViewHolder(holder: MemberViewFolder, position: Int) {
         holder.bindView(member[position], listener)
     }
     override fun getItemCount(): Int = member.size
-
 }
